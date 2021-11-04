@@ -1,0 +1,19 @@
+.moviesList {
+  display: flex;
+  overflow-y: hidden;
+  overflow-x: scroll;
+  margin-bottom: 2em;
+  max-width: 100vw;
+}
+
+.moviesList::-webkit-scrollbar {
+  display: none;
+}
+
+.movie {
+  width: 450px;
+  object-fit: cover;
+  margin-left: 1em;
+  margin-right: 1em;
+  cursor: pointer;
+}

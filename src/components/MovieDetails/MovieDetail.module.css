@@ -1,0 +1,48 @@
+.title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+h2 {
+  font-size: xx-large;
+}
+
+.genereTitle {
+  font-size: xx-large;
+  font-weight: 500;
+  color: #f5f5f5;
+  margin-top: 1em;
+  margin-bottom: 0.5em;
+  padding-left: 2em;
+  padding-right: 2em;
+}
+
+.info,
+p {
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+}
+span,
+p {
+  font-size: large;
+}
+
+span,
+h2,
+p {
+  color: #f5f5f5;
+}
+
+p {
+  max-width: 70vw;
+}
+
+@media only screen and (max-width: 700px) {
+  .title,
+  .info {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+}
