@@ -8,7 +8,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ```
 //on local
-git clone https://github.com/ManoharNuli/pokemon-web.git
+git clone https://github.com/Manohar-Nuli/react-wookie-movies.git
 cd react-wookie-movies
 yarn install or yarn
 yarn start
