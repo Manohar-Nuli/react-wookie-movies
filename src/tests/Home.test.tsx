@@ -3,7 +3,7 @@ import { render, screen, cleanup } from '@testing-library/react';
 import { Provider } from 'react-redux';
 import { store } from '../store/store';
 import Home from '../pages/Home/index';
-import GenresList from '../components/MovieDetails/GenresList';
+import GenresList from '../components/MoviesList/GenresList';
 import { BrowserRouter } from 'react-router-dom';
 
 const data = [

@@ -1,5 +1,5 @@
 import axios from 'axios';
-import React, { ChangeEvent, useState } from 'react';
+import React, { ChangeEvent, useCallback, useState } from 'react';
 import { useHistory, useLocation } from 'react-router';
 import { genereMovies, setMoviesData } from '../../store/Slice/Movies';
 import { useAppDispatch, useAppSelector } from '../../store/store';
@@ -28,7 +28,10 @@ const Header = () => {
 		dispatch(setMoviesData(resultMovies));
 	};
 
-	const delayedQuery = _.debounce((e) => handleSubmit(e, e.target.value), 1000);
+	const delayedQuery = useCallback(
+		_.debounce((e) => handleSubmit(e, e.target.value), 300),
+		[]
+	);
 	const onChange = (event: ChangeEvent<HTMLInputElement>) => {
 		setSearch(event.target.value);
 		delayedQuery(event);

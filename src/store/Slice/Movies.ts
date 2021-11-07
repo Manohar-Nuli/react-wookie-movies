@@ -55,7 +55,7 @@ export const getMovies = createAsyncThunk("movies/getMovies", async () => {
   };
 });
 
-const userSlice = createSlice({
+const moviesSlice = createSlice({
   name: "movies",
   initialState,
   reducers: {
@@ -80,6 +80,6 @@ const userSlice = createSlice({
   },
 });
 
-export default userSlice.reducer;
+export default moviesSlice.reducer;
 
-export const { setMoviesData } = userSlice.actions;
+export const { setMoviesData } = moviesSlice.actions;

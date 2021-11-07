@@ -1,4 +1,4 @@
-import GenresList from '../../components/MovieDetails/GenresList';
+import GenresList from '../../components/MoviesList/GenresList';
 import { Status } from '../../store/Slice/Movies';
 import { useAppSelector } from '../../store/store';
 import { css } from '@emotion/react';
