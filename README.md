@@ -30,3 +30,11 @@ The page will reload if you make edits.\
 
 Launches the test runner in the interactive watch mode.\
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+
+![Home screen](/Results/home.png)
+
+![Details screen](/Results/details.png)
+
+![Search](/Results/search.png)
+
+![Test results](/Results/test_results.png)
