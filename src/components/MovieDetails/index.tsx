@@ -16,7 +16,6 @@ const MovieDetails: FC<MovieDetailProps> = ({ movieData }) => {
 					data-testid="ratingLib"
 					ratingValue={movieData.imdb_rating}
 					size={30}
-					className="foo"
 				/>
 			</div>
 			<div className={styles.info}>
